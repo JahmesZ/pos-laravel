@@ -1,4 +1,4 @@
-   FROM php:8.3-cli
+   FROM php:8.4-cli
    RUN apt-get update && apt-get install -y git unzip libzip-dev libsqlite3-dev && docker-php-ext-install zip pdo_sqlite
    COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
    WORKDIR /app
