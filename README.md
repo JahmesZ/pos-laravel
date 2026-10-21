@@ -11,7 +11,7 @@ The account pages use static PHP arrays (defined in the controllers) as a tempor
 | `/users`     | `UserController@index`      | `resources/views/users/index.blade.php` |
 
 ## Requirements
-PHP 8.2+, Composer, Git.
+PHP 8.3+, Composer, Git.
 
 ## Setup
 ```bash
